@@ -1,0 +1,170 @@
+{
+  "items": [
+    {
+      "title": "Dashboard",
+
+      "icon": "fa fa-lg fa-fw fa-home",
+      "items": [
+        {
+          "route": "/dashboard",
+          "title": "Analytics Dashboard"
+        },
+        {
+          "route": "/dashboard/social-wall.html",
+          "title": "Social Wall"
+        }
+      ]
+    },
+
+    {
+      "title": "Cool Features!",
+      "icon": "fa fa-lg fa-fw fa-cloud",
+      "counter": 3,
+      "items": [
+        {
+          "title": "Calendar",
+          "icon": "fa fa-lg fa-fw fa-calendar",
+          "route": "calendar"
+
+        },
+        {
+          "title": "Maps",
+          "route": "maps",
+          "icon": "fa fa-lg fa-fw fa-map-marker",
+          "badge": {
+            "label": 9,
+            "class": "badge bg-color-greenLight pull-right"
+          }
+        }
+      ]
+    },
+
+    {
+      "title": "Widgets",
+      "route": "/widgets",
+      "icon": "fa fa-lg fa-fw fa-list-alt"
+    },
+    {
+      "title": "App Views",
+      "icon": "fa fa-lg fa-fw fa-puzzle-piece",
+      "items": [
+        {
+          "icon": "fa fa-file-text-o",
+          "title": "Projects",
+          "route": "/views/projects"
+        },
+        {
+          "icon": "fa fa-paragraph",
+          "title": "Blog",
+          "route": "/views/blog.html"
+        },
+        {
+          "icon": "fa fa-picture-o",
+          "title": "Gallery",
+          "route": "/views/gallery"
+        },
+        {
+          "icon": "fa fa-comments",
+          "title": "Forum Layout",
+          "items": [
+            {
+              "icon": "fa fa-picture-o",
+              "title": "General View",
+              "route": "/views/forum/general.html"
+            },
+            {
+              "icon": "fa fa-picture-o",
+              "title": "Topic View",
+              "route": "/views/forum/topic.html"
+            },
+            {
+              "icon": "fa fa-picture-o",
+              "title": "Post View",
+              "route": "/views/forum/post.html"
+            }
+          ]
+        },
+        {
+          "icon": "fa fa-group",
+          "title": "Profile",
+          "route": "/views/profile.html"
+        },
+        {
+          "icon": "fa fa-clock-o",
+          "title": "Timeline",
+          "route": "/views/timeline.html"
+        }
+      ]
+    },
+    {
+      "title": "E-Commerce",
+      "icon": "fa fa-lg fa-fw fa-shopping-cart",
+      "items": [
+        {
+          "title": "Orders",
+          "route": "/e-commerce/orders"
+        },
+        {
+          "title": "Products View",
+          "route": "/e-commerce/products-view.html"
+        },
+        {
+          "title": "Products Detail",
+          "route": "/e-commerce/products-detail.html"
+        }
+
+      ]
+    },
+    {
+      "title": "Miscellaneous",
+      "icon": "fa fa-lg fa-fw fa-windows",
+      "items": [
+        {
+          "title": "Pricing Tables",
+          "route": "/misc/pricing-tables.html"
+        },
+        {
+          "title": "Invoice",
+          "route": "/misc/invoice.html"
+        },
+        {
+          "title": "Login",
+          "route": "/login"
+        },
+        {
+          "title": "Register",
+          "route": "/register"
+        },
+        {
+          "title": "Locked Screen",
+          "route": "/lock"
+        },
+        {
+          "title": "Error 404",
+          "route": "/misc/404"
+        },
+        {
+          "title": "Error 500",
+          "route": "/misc/500"
+        },
+        {
+          "title": "Blank Page",
+          "route": "/misc/blank"
+        },
+        {
+          "title": "Email Template",
+          "route": "/misc/email-template.html"
+        },
+        {
+          "title": "Search",
+          "route": "/misc/search.html"
+        },
+        {
+          "title": "CK Editor",
+          "route": "/misc/ck-editor"
+        }
+      ]
+    }
+
+  ]
+}
